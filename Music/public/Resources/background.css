@@ -1,0 +1,32 @@
+
+/* 背景的设置 */
+
+/* 头部logo  登录  黑色*/
+.header_bg{
+    background:#232323;
+}
+/* 头部导航栏  红色 */
+.nav_bg{
+    background:#C20C0C;
+}
+/*  轮播图  背景 灰色 设置背景渐变*/
+.banner_bg{
+    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+}
+/* section 主体 背景的设置*/
+.recommend_bg,
+.n_arr_bg,
+.toplist_bg,
+.mv_bg{
+    background-image: linear-gradient(to bottom, #F1F1F1 0%, #FEFEFE 100%); 
+}
+.recommend_bg,
+.n_arr_bg,
+.mv_bg{
+    position: relative;
+    overflow: hidden;
+}
+/*  页脚 背景颜色设置*/
+.footer_bg{
+    background:#333;
+}
